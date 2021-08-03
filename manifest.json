@@ -1,0 +1,13 @@
+{
+  "name": "Brainly Bypass",
+  "description": "Bypass Brainly's 1 answer/day restriction",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://brainly.com.br/*"],
+      "js": ["/script.js"]
+    }
+  ],
+  "host_permissions": ["https://brainly.com.br/*"]
+}
